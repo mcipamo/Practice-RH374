@@ -1,6 +1,6 @@
 ---
 - name: Install web servers with WSGI interface
-  hosts: all
+  hosts: web_servers
   become: true
   vars:
     httpd_packages:
